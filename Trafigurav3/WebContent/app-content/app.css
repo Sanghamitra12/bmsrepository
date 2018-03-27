@@ -1,0 +1,31 @@
+ a {
+    cursor: pointer;
+}
+ .bgimg {
+    background-image: url('login.jpg') no-repeat;
+    background-size: cover;
+    min-width: 600px;
+	min-height: calc(690px * (90/150));
+	height: 100vh;
+	width: 100vw;
+}
+
+
+.table {
+	margin:10% 0 0 0;
+}
+
+.fileupload{
+	margin:2% 0 0 0;
+}
+/* for logout button */
+.right-side-button{
+ margin:10% 0 0 700%;
+}
+
+/* for submit button popup */
+
+.submit
+{
+	margin:5% 20% 50% 50%;
+}

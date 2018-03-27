@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View LC</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+       <a class="navbar-brand" href="#!/bankhome">Bank</a> 
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="#!/bankhome">LC List</a></li>
+     
+     
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <!-- <h2>Bordered Table</h2>
+  <p>The .table-bordered class adds borders to a table:</p>  -->           
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>LC Details</th>
+        
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Name of LC</td>
+        <td>LC A</td>
+     </tr>
+      <tr>
+        <td>File Download</td>
+       <td><div class="fileupload" ng-app="fileUpload" class="container">
+  <div class="row" ng-controller="upload">
+    <div class="col-md-6">
+        <input type="file" fileinput="file" filepreview="filepreview"/>
+    </div>
+    <div class="col-md-6">
+       <img ng-src="{{filepreview}}" class="img-responsive" ng-show="filepreview"/>
+<p>&nbsp;</p></td>
+       
+      </tr>
+      
+       <tr>
+        <td>File upload</td>
+       <td><div class="fileupload" ng-app="fileUpload" class="container">
+  <div class="row" ng-controller="upload">
+    <div class="col-md-6">
+        <input type="file" fileinput="file" filepreview="filepreview"/>
+    </div>
+    <div class="col-md-6">
+       <img ng-src="{{filepreview}}" class="img-responsive" ng-show="filepreview"/>
+<p>&nbsp;</p></td>
+       
+      </tr>
+   <tr>
+        <td></td>
+        <td><textarea placeholder="Comment"></textarea></td>
+        
+      </tr> 
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>
