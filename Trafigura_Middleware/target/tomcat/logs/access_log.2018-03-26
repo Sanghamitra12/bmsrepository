@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:08:17:47 +0000] "POST /trafigura/userDetails HTTP/1.1" 500 5168 http-bio-8080-exec-1 32254
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:00:00 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 80 http-bio-8080-exec-2 2766
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:00:16 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 77 http-bio-8080-exec-3 81
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:00:51 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 83 http-bio-8080-exec-4 105
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:12:23 +0000] "POST /trafigura/userDetails HTTP/1.1" 500 5140 http-bio-8080-exec-2 2686
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:16:31 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 103 http-bio-8080-exec-2 3610
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:17:10 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 99 http-bio-8080-exec-3 175
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:24:14 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 99 http-bio-8080-exec-2 2366
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:10:28:17 +0000] "POST /trafigura/userDetails HTTP/1.1" 200 97 http-bio-8080-exec-5 65
